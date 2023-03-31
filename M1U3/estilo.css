@@ -1,0 +1,52 @@
+body{
+	background-color:#343C3B;
+}
+
+p{
+	color: #A4A8AB;
+}
+
+li{
+	color: #A4A8AB;
+}
+
+a{
+	color: #F5A5B8;
+}
+
+h1{ 
+	color: #4ABDAC; 
+}
+
+.datos{
+	border:5px solid #A0A0A0;
+}
+
+.sub-titulos {
+	color: #B1D4E0;
+	font-size:20px;
+}
+
+.titulos {
+	color:#4ABDAC ;
+	font-size: 24px;
+}
+
+.Foto{ 
+	border:5px solid #A0A0A0;
+	width: 100px;
+	height: 100px;
+}
+
+#foto{
+	height: 100px;
+	width: 100px;
+}
+
+#footer{
+	
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+
