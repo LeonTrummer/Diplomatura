@@ -1,5 +1,6 @@
 body{
-	background-color:#343C3B;
+	background: linear-gradient(to bottom, #343C3B ,#2F4948, #4A627F );
+
 }
 
 p{
@@ -16,13 +17,21 @@ a{
 
 h1{ 
 	color: #4ABDAC; 
+	margin-left: 20px;
+	font-size: 60px;
 }
 
-.datos{
+.listas{
 	border:5px solid #A0A0A0;
-}
+	border-radius: 5px 10px 5px 10px ;
+  	margin: 20px;
+  	width: 300px;
+
+}	
+
 
 .sub-titulos {
+	margin-left: 20px;
 	color: #B1D4E0;
 	font-size:20px;
 }
@@ -30,12 +39,15 @@ h1{
 .titulos {
 	color:#4ABDAC ;
 	font-size: 24px;
+
 }
 
 .Foto{ 
 	border:5px solid #A0A0A0;
+	border-radius: 5px 10px 5px 10px;
 	width: 100px;
 	height: 100px;
+	margin-right: 0px;
 }
 
 #foto{
@@ -45,8 +57,16 @@ h1{
 
 #footer{
 	
-	margin-top: 20px;
+	margin-top: 248px;
 	font-size: 18px;
 }
 
+#datos{
+	column-count: 2;
+	column-gap: 20px;
+	display: flex;
+}
 
+#header{
+	display: flex;
+}
