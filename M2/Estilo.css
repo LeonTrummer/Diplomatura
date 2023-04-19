@@ -1,4 +1,8 @@
 
+p{
+	color:#FFFFFF;
+}
+
 #Columna{
 	margin: 500px;
 	margin-top: 20px;
@@ -10,35 +14,6 @@
 
 }
 
-.Rojo1{
-	
-	height: 100px;
-	width: 100px;
-	background-color:red;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-} 
-.Verde1{
-	
-	height: 100px;
-	width: 100px;
-	background-color:Green;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-} 
-.Azul1{
-	
-	height: 100px;
-	width: 100px;
-	background-color:Blue;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 
 #Linea{
  margin: 500px;
@@ -53,39 +28,6 @@
 
 }
 
-.Rojo2{
-	
-	height: 100px;
-	width: 100px;
-	background-color:red;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-
-} 
-.Verde2{
-	
-	height: 100px;
-	width: 100px;
-	background-color:Green;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-} 
-.Azul2{
-	
-	height: 100px;
-	width: 100px;
-	background-color:Blue;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-
-
 #Espacio{
 	margin-bottom: 500px;
 	margin-right: auto;
@@ -95,7 +37,9 @@
 	justify-content: space-between;
 }
 
-.Rojo3{
+
+
+.Rojo{
 	
 	height: 100px;
 	width: 100px;
@@ -105,7 +49,7 @@
 	align-items: center;
 
 } 
-.Verde3{
+.Verde{
 	
 	height: 100px;
 	width: 100px;
@@ -115,7 +59,7 @@
 	align-items: center;
 	
 } 
-.Azul3{
+.Azul{
 	
 	height: 100px;
 	width: 100px;
@@ -123,11 +67,4 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-
-}
-
-
-p{
-	color:#FFFFFF;
 }
