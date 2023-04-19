@@ -1,0 +1,133 @@
+
+#Columna{
+	margin: 500px;
+	margin-top: 20px;
+	border: solid;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+
+.Rojo1{
+	
+	height: 100px;
+	width: 100px;
+	background-color:red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+} 
+.Verde1{
+	
+	height: 100px;
+	width: 100px;
+	background-color:Green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+} 
+.Azul1{
+	
+	height: 100px;
+	width: 100px;
+	background-color:Blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#Linea{
+ margin: 500px;
+ margin-bottom: 500px;
+ display: flex;
+ border: solid;
+ flex-direction: row-reverse;
+ justify-content: center;
+ align-items: center;
+ height: 400px;
+ width: 300px;
+
+}
+
+.Rojo2{
+	
+	height: 100px;
+	width: 100px;
+	background-color:red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+} 
+.Verde2{
+	
+	height: 100px;
+	width: 100px;
+	background-color:Green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+} 
+.Azul2{
+	
+	height: 100px;
+	width: 100px;
+	background-color:Blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+#Espacio{
+	margin-bottom: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Rojo3{
+	
+	height: 100px;
+	width: 100px;
+	background-color:red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+} 
+.Verde3{
+	
+	height: 100px;
+	width: 100px;
+	background-color:Green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+} 
+.Azul3{
+	
+	height: 100px;
+	width: 100px;
+	background-color:Blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+
+p{
+	color:#FFFFFF;
+}
