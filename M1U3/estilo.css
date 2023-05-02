@@ -1,5 +1,6 @@
 body{
 	background: linear-gradient(to bottom, #343C3B ,#2F4948, #4A627F );
+	height: 53.85em;
 
 }
 
@@ -56,17 +57,25 @@ h1{
 }
 
 #footer{
-	
-	margin-top: 248px;
+	position: absolute;
+	margin-top: 280px;
 	font-size: 18px;
 }
 
 #datos{
 	column-count: 2;
 	column-gap: 20px;
-	display: flex;
+	display: inline-flex;
 }
 
 #header{
 	display: flex;
+	flex-direction: row;
+
+
+}
+
+#titulos {
+	flex-direction: row;
+
 }
