@@ -1,0 +1,47 @@
+#Nav{
+	border: solid;
+	color: darkturquoise;
+	background: darkblue;
+}
+
+body{
+	background: darkturquoise;
+}
+p {
+	background: darkblue;
+	border: solid;
+	border-color: darkolivegreen;
+	margin-bottom: 0px;
+	color: deepskyblue;
+	
+}
+
+img{
+	border: solid;
+	border-color: darkred;
+	margin-top: 0px;
+	display: inline-block;
+}
+#BIG{
+	font-size: 40px;
+	color: darkmagenta;
+}
+#Pinline {
+	display: inline-block;
+
+}
+.clukli {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#plipli{
+	background: darkblue;
+	border: solid;
+	border-color: darkolivegreen;
+	margin-bottom: 0px;
+	color: deepskyblue;
+	margin-top:20px;
+}
