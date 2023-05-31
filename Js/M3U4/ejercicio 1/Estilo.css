@@ -1,0 +1,10 @@
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  border:solid ;
+  border-color: greenyellow;
+  
+}
