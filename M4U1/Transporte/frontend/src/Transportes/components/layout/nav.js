@@ -1,17 +1,71 @@
+import '../../styles/Nav.css';
+import { NavLink } from 'react-router-dom';
 
-import { Link } from "react-router-dom";
 const Nav = (props) => {
-return (
-<nav >
-<div>
-<ul>
-<li><Link to="/">Home</Link></li>
-<li><Link to="/nosotros">Nosotros</Link></li> 
-<li><Link to="/novedades">Novedades</Link></li> 
-<li><Link to="/contacto">Contact</Link></li>
-</ul>
-</div>
-</nav>
-)
+  return (
+    <nav>
+      <div>
+        <ul>
+          <li>
+            <NavLink
+              to="/"
+              activeClassName="active"
+              isActive={(match, location) => {
+                if (!match) {
+                  return false;
+                }
+                return match.isExact;
+              }}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/nosotros"
+              activeClassName="active"
+              isActive={(match, location) => {
+                if (!match) {
+                  return false;
+                }
+                return match.isExact;
+              }}
+            >
+              Nosotros
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/novedades"
+              activeClassName="active"
+              isActive={(match, location) => {
+                if (!match) {
+                  return false;
+                }
+                return match.isExact;
+              }}
+            >
+              Novedades
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/contacto"
+              activeClassName="active"
+              isActive={(match, location) => {
+                if (!match) {
+                  return false;
+                }
+                return match.isExact;
+              }}
+            >
+              Contacto
+            </NavLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
+
 export default Nav;

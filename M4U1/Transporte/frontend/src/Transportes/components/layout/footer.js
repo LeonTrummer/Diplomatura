@@ -1,4 +1,4 @@
-
+import '../../styles/components/layout/footer.css';
 
 import React from 'react';
 const Footer = (props) => {
